@@ -113,7 +113,7 @@ pip install -r requirements.txt
 Run
 
 ```bash
-python app.py
+python subtitle-tag-injector.py
 ```
 
 ---
@@ -134,7 +134,7 @@ pyinstaller ^
     --windowed ^
     --clean ^
     --name "Subtitle Tag Injector" ^
-    app.py
+    subtitle-tag-injector.py
 ```
 
 The executable will be created inside
@@ -157,7 +157,7 @@ dist/
 ## Project structure
 
 ```
-app.py
+subtitle-tag-injector.py
 requirements.txt
 README.md
 LICENSE
