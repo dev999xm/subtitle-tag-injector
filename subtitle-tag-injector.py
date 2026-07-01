@@ -81,7 +81,7 @@ except Exception:
 
 
 APP_NAME = "Subtitle Tag Injector"
-APP_VERSION = "0.0.1"
+APP_VERSION = "0.0.2"
 APP_ORG = "OpenAI"
 APP_SUFFIX = "[SubtitleTagInjector]"
 DEFAULT_MIN_GAP_MS = 0
