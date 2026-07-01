@@ -1,5 +1,7 @@
 # Subtitle Tag Injector
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0c55f4a2-c796-42f2-b002-0cf0317b4606" />
+
 A desktop application for automatically inserting intro and outro subtitle tags into subtitle files without overlapping existing subtitles.
 
 The application searches for available timing gaps, inserts subtitle events safely, and can automatically reduce tag duration when necessary.
