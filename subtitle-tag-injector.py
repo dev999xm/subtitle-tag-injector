@@ -80,7 +80,8 @@ except Exception:
     cn_from_bytes = None
 
 
-APP_NAME = "Subtitle Tag Injector v0.0.1"
+APP_NAME = "Subtitle Tag Injector"
+APP_VERSION = "0.0.1"
 APP_ORG = "OpenAI"
 APP_SUFFIX = "[SubtitleTagInjector]"
 DEFAULT_MIN_GAP_MS = 0
@@ -686,7 +687,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.worker: Optional[ProcessingWorker] = None
 
-        self.setWindowTitle(APP_NAME)
+        self.setWindowTitle(f"{APP_NAME} v{APP_VERSION}")
         self.setMinimumSize(1200, 780)
 
         root = QWidget(self)
