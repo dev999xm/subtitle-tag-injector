@@ -29,7 +29,7 @@ jobs:
 
       - name: Build
         run: |
-          pyinstaller --onefile --windowed --name "Subtitle Tag Injector" app.py
+          pyinstaller --onefile --windowed --name "Subtitle Tag Injector" subtitle-tag-injector.py
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v2
