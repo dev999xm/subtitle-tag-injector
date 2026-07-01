@@ -1,0 +1,3 @@
+PySide6>=6.6
+pysubs2>=1.7
+charset-normalizer>=3.3
