@@ -165,6 +165,14 @@ LICENSE
 
 ---
 
+## Development
+
+This project was developed collaboratively with ChatGPT (OpenAI).
+
+The application idea, requirements, algorithms, feature design, testing, and overall direction were defined by the developer, while ChatGPT assisted with code generation, refactoring, documentation, debugging, and implementation details throughout the development process.
+
+---
+
 ## License
 
 MIT License
